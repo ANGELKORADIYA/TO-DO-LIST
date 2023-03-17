@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+span{
+    font-size: 30px;
+}   
+#nav nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#nav nav ul li {
+    margin: 30px;
+
+}
+
+a {
+    padding: 20px;
+    color: red;
+    border-radius: 12px;
+}
+
+a:hover {
+    color: rgb(17, 0, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    display: block;
+    background-color: white;
+    color: black;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+}
+
+
+#popup{
+    display: none;
+    position:absolute;
+    left: 39%;
+    top:28%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    flex-direction: column;
+    border: 5px solid red;
+    z-index: 12000;
+}
+#title,#description{
+    margin: 12px;
+}
+
+
+
+
+#add{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    border: 2px solid red;
+    margin: 12px;
+}
+.block div{
+    margin: 12px;
+    padding: 12px;
+}
+input,textarea{
+    padding: 12px;
+}
+#completed{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+
+}
+#completed .block{
+    width: 300px;
+}
+#btncom{
+    display: flex;
+}
+hr{
+    margin:5px;
+}
+.text{
+    text-align: center;
+    margin-top:35px ;
+    display:none;
+}
