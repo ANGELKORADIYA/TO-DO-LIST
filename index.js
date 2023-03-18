@@ -66,7 +66,7 @@ f.preventDefault();
             arr.push(n[i]);
         }
     }
-   s // console.log(arr);   
+    // console.log(arr);   
    
     complll.innerHTML="";
     for(let i=0;i<arr.length;i++){
